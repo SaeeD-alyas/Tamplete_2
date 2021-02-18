@@ -1,0 +1,228 @@
+/* Start Global */
+@import url("https://fonts.googleapis.com/css2?family=Cairo&display=swap");
+*,
+*::before,
+*::after {
+  /*outline: 1px solid red;*/
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Cairo", sans-serif;
+  background-color: #333;
+}
+/* End Global */
+/* Start Navbar */
+#navbar {
+  background-color: rgb(51, 51, 51, 0.4);
+  display: flex;
+  position: sticky;
+  top: 0;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  z-index: 1;
+}
+#navbar .logo {
+  color: #fff;
+}
+/* #navbar .logo .text-primary */
+.text-primary {
+  color: #93cb53;
+}
+#navbar ul {
+  list-style: none;
+  display: flex;
+}
+#navbar ul li a {
+  text-decoration: none;
+  padding: 5px 10px;
+  color: #fff;
+  size: 10px;
+}
+#navbar ul li a:hover {
+  background-color: #93cb52;
+  border-radius: 5px;
+}
+/* End Navbar */
+/* Srart Header */
+#showcase {
+  background: #333 url("../images/showcase.jpg") no-repeat center center / cover;
+  text-align: center;
+  height: 100vh;
+}
+#showcase .showcase-content {
+  background-color: rgb(51, 51, 51, 0.4);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  /* overlay */
+  position: absolute;
+  top: 55px;
+  left: 0;
+  right: 0;
+}
+#showcase .showcase-content .heading {
+  font-size: 60px;
+  color: #fff;
+}
+#showcase .showcase-content p {
+  font-size: 22px;
+  margin: 10px 0;
+  color: #fff;
+}
+#showcase .showcase-content .btn {
+  display: inline-block;
+  background-color: #93cb52;
+  border-radius: 5px;
+  border: 0;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 5px 15px;
+  color: #fff;
+  font-weight: bold;
+}
+#showcase .showcase-content .btn:hover {
+  background-color: #7ab436;
+  border-radius: 5px;
+  color: #fff;
+}
+/* End Header */
+/* Star What */
+#what {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  color: #333;
+}
+#what h1 {
+  text-align: center;
+  font-size: 40px;
+  padding: 25px;
+}
+#what .container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 0px 180px 70px 180px;
+}
+#what .container div {
+  text-align: center;
+}
+#what .container div i {
+  background-color: #93cb52;
+  padding: 15px;
+  border-radius: 50px;
+}
+#what .container div p {
+  padding: 5px 5px 20px 30px;
+}
+/* End What */
+/* Satrt Who */
+#who {
+  display: flex;
+  height: 500px;
+}
+#who .picture {
+  width: 45%;
+  background: url("../images/people.jpg") no-repeat center center/cover;
+}
+#who .content {
+  width: 55%;
+  margin: 35px;
+  color: #fff;
+}
+#who .content h1 {
+  font-size: 38px;
+  padding: 10px 0;
+}
+#who .content .who-p {
+  font-size: 20px;
+}
+#who .content p {
+  font-size: 20px;
+  border-bottom: 0.1px dotted #555;
+  line-height: 1.8;
+}
+/* End Who */
+/* Start Clients */
+#clients {
+  display: flex;
+  background-color: #fff;
+  flex-direction: column;
+  text-align: center;
+  padding: 25px 70px 40px 70px;
+}
+#clients h1 {
+  padding: 15px 0;
+  font-size: 38px;
+}
+#clients ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+#clients ul li img {
+  width: 180px;
+}
+/* End Clients */
+/* Start Contact Us */
+#contact {
+  display: flex;
+  background-color: #93cb52;
+}
+#contact .information {
+  width: 52%;
+  color: #fff;
+  padding: 30px;
+}
+
+#contact .information .form label {
+  display: block;
+  margin-top: 15px;
+  font-size: 16px;
+}
+#contact .information .form input {
+  width: 95%;
+  height: 30px;
+  line-height: 30px;
+  border: 0;
+}
+#contact .information .form textarea {
+  width: 95%;
+  height: 80px;
+  line-height: 28px;
+  border: 0;
+}
+#contact .information .form button {
+  display: block;
+  width: 95%;
+  height: 30px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 6px;
+  border: 0;
+}
+#contact .contact-pic {
+  width: 48%;
+}
+#contact .contact-pic img {
+  background: cover;
+  width: 100%;
+  height: 100%;
+}
+/* End Contact Us */
+/* Start Footer */
+footer {
+  text-align: center;
+  color: #fff;
+  line-height: 50px;
+  height: 50px;
+}
+/* End Footer */
